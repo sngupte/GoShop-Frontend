@@ -1,0 +1,31 @@
+.overviewOuterContainer {
+    min-height: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.keyLabel {
+    font-weight: bold;
+    font-size: 25px;
+    color: #000;
+}
+
+.valueLabel {
+    font-size: 25px;
+    color: #000;
+    margin-left: 10px;
+}
+
+.martop {
+    margin-top: 30px;
+}
+
+.flotLeft {
+    float: left;
+    margin-right: 30px;
+}
+
+.flotRight {
+    float: right;
+    margin-right: 30px;
+}

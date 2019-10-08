@@ -1,0 +1,27 @@
+.storeDetailProfilePic{
+    height: 400px;
+    margin-top: 20px; 
+    float:left; 
+    border-radius: 8px;
+    width: 400px;
+}
+.storeDetailShopName{
+    margin-top: 0px; 
+}
+.storeDetailsContanier{
+    width: 1250px; 
+    margin-left: 15px;
+  }
+
+  .storeDetailNameOfShop{ 
+    font-size: 1.3rem ;
+    color: var(--Black);
+    margin-top: 10px; 
+    margin-left: 550px; 
+  
+  }
+
+  .editButtonStoreDetails {
+    margin-right: 100px;
+    float: right;
+  } 

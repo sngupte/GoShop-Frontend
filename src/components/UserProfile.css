@@ -1,0 +1,86 @@
+.profileOuerContainer {
+    position: fixed;
+    display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  align-item: center;
+  justify-content: center;
+}
+
+.crossButton {
+    height: 15px;
+    width: 15px;
+    float: left;
+}
+
+.profcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-width: 365px;
+    min-height: 450px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: #ffffff;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  .profileImg{
+      width:150px;
+      padding-top: 10px;
+  }
+  
+  .addShopButton {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: #de6a1b;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .logoutButton{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px;
+    color: black;
+    background-color: #de6a1b;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .popup__header {
+    padding: 0.25em 0.75em;
+    margin-bottom: 2em;
+    text-align: right;
+  }
+  .popup__close {
+    display: inline-block;
+    width: 0.875em;
+    height: 0.875em;
+    background-color:rgba(50, 50, 50, 0.5);
+    border-radius: 50%;
+  }  
+  .profileImage { 
+    display: inline-block; 
+    font-family: inherit; 
+    font-size: 0.875em; 
+    vertical-align: 0.125em; 
+    margin-right: 0.5em;
+    color: slategray;
+    cursor:pointer;
+  }

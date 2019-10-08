@@ -1,0 +1,75 @@
+   
+   .card{
+    border-color:"#555555";
+    transition:all 0.1s linear;
+    position:relative;
+    height: 260px;
+    width: 250px;
+    
+  }
+
+
+  .img-container:hover .card-img-top{
+    transform:scale(1.1);
+  }
+
+
+  .img-container:hover .wish-btn{
+    transform: translate(0,0);
+}
+.img-container{
+    position:relative;
+     overflow:hidden;
+    background: "#efefef";
+    height: 250px;
+  } 
+
+  .card-img-top{ 
+    transition:all 0.2s linear;
+    height: 180px;
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 9px; 
+
+   }
+
+
+
+    .wish-btn{
+        position: absolute;
+        bottom:0;
+        right: 0;
+        padding: 0.2rem 0.4rem;
+        background: var(--themeOrange);
+        color: var(--mainwhite);
+        border-color:var(--themeOrange);
+
+        font-size:1.4rem;
+        border-radius:0.5rem 0 0 0;
+        transform:translate(100%, 100%);
+    
+    }
+    
+    .wish-btn:hover{
+        color:var(--themeOrange);
+        background: var(--mainwhite);
+        cursor: pointer;
+       
+    }
+    
+    
+    .amountLbl{ 
+      font-size: 1rem ;
+      color: var(--Grey);
+      text-align: center;
+      margin-top: 4px; 
+    
+    }
+    
+    .nameOfProduct{ 
+      font-size: 1.1rem ;
+      color: var(--Black);
+      text-align: center; 
+    
+    }
+  

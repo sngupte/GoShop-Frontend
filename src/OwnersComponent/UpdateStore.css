@@ -1,0 +1,42 @@
+/* Static Data */
+
+.editStoreOuter {
+  margin-top: 100px;
+}
+
+.updateStoreContainer{
+  
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.updateStoreFieldName{
+    background:transparent;
+  font-size: 1.2rem !important;
+  color: var(--mainDark);
+  font-weight:bold;
+  
+ 
+}
+
+.updateStoreValue{
+    background:transparent;
+  font-size: 1.2rem !important;
+  color: var(--mainDark);
+  font-weight:normal;
+  margin-left: 5px;
+
+}
+
+.infoHeader{
+  background:transparent;
+  font-size: 1.6rem !important;
+  color: var(--themeOrange);
+  font-weight:Bold;
+  margin-left: 0px;
+}
+
+.updateStoreFormContainer{
+    margin-top: 1000px; 
+    margin-left: 100px;
+    
+}

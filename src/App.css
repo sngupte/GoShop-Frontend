@@ -1,0 +1,73 @@
+:root{
+  --mainBlue:#033005;
+  --lightblue:rgb(12, 146, 34);
+  --mainwhite:#f3f3f3;
+  --mainDark:#333;
+  --mainYellow:#ffa408;
+  --Heartred:#B22222;	
+  --Heartred:#B22222;	
+  --Grey: #777777;
+  --Black:#555555;
+  --yellowStar:#FDB425;
+  --themeOrange:#DA7614;
+
+
+}
+body{
+  background-image:url("backgroundImageMain.png"); 
+  background-position: 'center';
+  background-size: 'cover';
+  background-repeat: 'no-repeat';
+  /* background: var(--mainwhite) !important; */
+  color: var(--mainDark) !important;
+  position: relative;
+}
+
+
+.text-title{
+  font-family: 'Permanant marker' ,cursive;
+  letter-spacing: 0.3rem;
+  text-transform:uppercase;
+}
+.text-blue{
+  color: var(--lightblue);
+  
+}
+.text-themeOrange{
+  color: var(--themeOrange);
+}
+.btn-black{
+  background:transparent;
+  text-transform:capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius:0 !important;
+  border:0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  background: var(--mainDark) !important; 
+  color: var(--mainwhite) !important;
+}
+.Fav-icon{
+  cursor: pointer;
+  font-size: 1.2rem; 
+  color: var(--mainYellow);
+  
+}
+.img-fluid{
+  height:350px;
+  width: 300px
+
+}
+.img-product{
+  width: 250px;
+  height: 350px;
+}
+.Product-Detail{
+  margin: 0px 600px 0px;
+  border-bottom-left-radius: 100px;
+}
+.prof-img{
+  width: 550px;
+  height: 425px;
+}

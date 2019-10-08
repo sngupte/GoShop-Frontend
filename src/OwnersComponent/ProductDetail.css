@@ -1,0 +1,27 @@
+.productDetailContainer{
+   
+}
+
+.productDetailProductName{
+    color: var(--themeOrange);
+    border-color: var(--mainDark);
+    margin-top:80px;
+    margin-left:600px;
+  }
+
+  .productDetailDetail-Product{
+    margin-left:150px;
+    margin-top:-50px;
+  }
+
+
+  .productDetailProductImage{
+    height:400px;
+    width: 300px;
+    margin-left:0px;
+    margin-top:10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
+  }
